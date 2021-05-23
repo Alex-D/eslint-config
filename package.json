@@ -1,0 +1,42 @@
+{
+  "name": "@alex-d/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint ruleset for TypeScript and JavaScript",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex-D/eslint-config.git"
+  },
+  "keywords": [
+    "javascript",
+    "typescript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config"
+  ],
+  "author": "Alex-D <contact@alex-d.fr> (https://alex-d.fr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alex-D/eslint-config/issues"
+  },
+  "homepage": "https://github.com/Alex-D/eslint-config#readme"
+}
