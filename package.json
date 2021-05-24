@@ -5,9 +5,10 @@
   "main": ".eslintrc.js",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint --fix"
+    "lint:fix": "eslint --fix ."
   },
   "peerDependencies": {
+    "typescript": "*",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",
     "eslint": "^7.27.0",
@@ -15,6 +16,7 @@
     "eslint-plugin-simple-import-sort": "^7.0.0"
   },
   "devDependencies": {
+    "typescript": "*",
     "@typescript-eslint/eslint-plugin": "^4.24.0",
     "@typescript-eslint/parser": "^4.24.0",
     "eslint": "^7.27.0",
