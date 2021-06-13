@@ -1,6 +1,6 @@
 {
   "name": "@alex-d/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint ruleset for TypeScript and JavaScript",
   "main": ".eslintrc.js",
   "scripts": {
