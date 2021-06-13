@@ -1,6 +1,6 @@
 {
   "name": "@alex-d/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint ruleset for TypeScript and JavaScript",
   "main": ".eslintrc.js",
   "scripts": {
@@ -9,18 +9,18 @@
   },
   "peerDependencies": {
     "typescript": "*",
-    "@typescript-eslint/eslint-plugin": "^4.24.0",
-    "@typescript-eslint/parser": "^4.24.0",
-    "eslint": "^7.27.0",
-    "eslint-plugin-import": "<2.23 || >2.23",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "eslint": "^7.28.0",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-simple-import-sort": "^7.0.0"
   },
   "devDependencies": {
     "typescript": "*",
-    "@typescript-eslint/eslint-plugin": "^4.24.0",
-    "@typescript-eslint/parser": "^4.24.0",
-    "eslint": "^7.27.0",
-    "eslint-plugin-import": "<2.23 || >2.23",
+    "@typescript-eslint/eslint-plugin": "^4.26.1",
+    "@typescript-eslint/parser": "^4.26.1",
+    "eslint": "^7.28.0",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-simple-import-sort": "^7.0.0"
   },
   "repository": {
