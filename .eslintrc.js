@@ -101,6 +101,7 @@ module.exports = {
 		],
 		'array-element-newline': [
 			'error',
+			'consistent',
 		],
 		'comma-spacing': [
 			'error',
