@@ -326,7 +326,6 @@ module.exports = {
 			'after',
 		],
 
-
 		// Imports
 		'simple-import-sort/imports': [
 			'error',
