@@ -16,6 +16,17 @@ module.exports = {
 		'simple-import-sort',
 		'@typescript-eslint',
 	],
+	settings: {
+		'import/parsers': {
+			'@typescript-eslint/parser': ['.ts', '.tsx'],
+		},
+		'import/resolver': {
+			typescript: {
+				alwaysTryTypes: true,
+				project: '.',
+			},
+		},
+	},
 	rules: {
 		// Disallow crappy things
 		'no-console': [
@@ -347,6 +358,12 @@ module.exports = {
 			'error',
 		],
 		'import/no-duplicates': [
+			'error',
+		],
+		'n/no-missing-import': [
+			'off',
+		],
+		'import/no-unresolved': [
 			'error',
 		],
 
