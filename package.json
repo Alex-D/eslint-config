@@ -8,22 +8,22 @@
     "lint:fix": "eslint --fix ."
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "@typescript-eslint/parser": "^7.0.1",
-    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-import": "npm:eslint-plugin-i@^2.29.1",
-    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-n": "^17.0.0",
     "eslint-plugin-simple-import-sort": "^12.0.0",
     "typescript": "*"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "@typescript-eslint/parser": "^7.0.1",
-    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-import": "npm:eslint-plugin-i@^2.29.1",
-    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-n": "^17.0.0",
     "eslint-plugin-simple-import-sort": "^12.0.0",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.4"
   },
   "repository": {
     "type": "git",
@@ -44,7 +44,7 @@
   },
   "homepage": "https://github.com/Alex-D/eslint-config#readme",
   "volta": {
-    "node": "20.6.1",
-    "npm": "10.1.0"
+    "node": "20.12.1",
+    "npm": "10.5.0"
   }
 }
